@@ -7471,8 +7471,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="NAME" x="147.32" y="152.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND43" gate="1" x="134.62" y="139.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="137.16" y="137.16" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND43" gate="1" x="134.62" y="152.4" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="132.08" y="154.94" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND44" gate="1" x="172.72" y="137.16" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="175.26" y="134.62" size="1.778" layer="96" rot="MR0"/>
@@ -7657,10 +7657,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="LED3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="137.16" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="144.78" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND43" gate="1" pin="GND"/>
-<pinref part="SW3" gate="G$1" pin="E"/>
+<pinref part="SW3" gate="G$1" pin="D"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
@@ -7869,13 +7868,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="241.3" y1="215.9" x2="246.38" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="X2" gate="G$1" pin="C1+"/>
-</segment>
-</net>
-<net name="USBBOOT" class="0">
-<segment>
-<wire x1="137.16" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
-<label x="127" y="149.86" size="1.778" layer="95"/>
-<pinref part="SW3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="GP9" class="0">
@@ -8113,6 +8105,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="251.46" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="USBBOOT" class="0">
+<segment>
+<pinref part="SW3" gate="G$1" pin="E"/>
+<wire x1="137.16" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<label x="127" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -8146,7 +8145,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <approved hash="104,2,246.38,170.18,X2,VSS,GND,,,"/>
 <approved hash="104,2,246.38,203.2,X2,VBAT,3.3V,,,"/>
 <approved hash="104,2,246.38,200.66,X2,VDD,3.3V,,,"/>
-<approved hash="113,1,195.275,19.7358,FRAME1,,,,,"/>
 <approved hash="113,1,27.94,93.9558,TP5,,,,,"/>
 <approved hash="113,1,106.704,170.18,TP6,,,,,"/>
 <approved hash="113,2,142.771,140.231,FRAME2,,,,,"/>

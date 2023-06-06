@@ -16967,13 +16967,9 @@ einem neuen Namen ab.</description>
 <via x="55.372" y="81.153" extent="1-16" drill="0.5"/>
 <via x="51.308" y="79.121" extent="1-16" drill="0.5"/>
 <via x="36.114896875" y="96.474196875" extent="1-16" drill="0.5"/>
-<contactref element="SW3" pad="E"/>
 <contactref element="SW3" pad="P$2"/>
 <contactref element="SW3" pad="P$1"/>
 <contactref element="SW3" pad="C"/>
-<wire x1="17.1342" y1="97.1947" x2="18.38424375" y2="96.256228125" width="0.3048" layer="16"/>
-<wire x1="18.38424375" y1="96.256228125" x2="18.3842" y2="93.8447" width="0.3048" layer="16"/>
-<wire x1="18.3842" y1="93.8447" x2="15.946940625" y2="91.718925" width="0.3048" layer="16"/>
 <wire x1="15.893640625" y1="91.665625" x2="15.8842" y2="91.3447" width="0.3048" layer="16"/>
 <wire x1="17.1342" y1="85.4947" x2="18.226859375" y2="85.806228125" width="0.3048" layer="16"/>
 <wire x1="18.226859375" y1="85.806228125" x2="21.061553125" y2="88.640921875" width="0.3048" layer="16"/>
@@ -16994,6 +16990,10 @@ einem neuen Namen ab.</description>
 <wire x1="41.118103125" y1="65.861896875" x2="39.657046875" y2="65.861896875" width="0.254" layer="1"/>
 <contactref element="C18" pad="1"/>
 <contactref element="C30" pad="1"/>
+<contactref element="SW3" pad="D"/>
+<wire x1="18.3842" y1="88.8447" x2="15.8842" y2="91.3447" width="0.254" layer="1"/>
+<wire x1="17.1342" y1="97.1947" x2="20.9153" y2="97.1947" width="0.254" layer="1"/>
+<wire x1="20.9153" y1="97.1947" x2="21.082" y2="97.028" width="0.254" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="IC3" pad="40"/>
@@ -17204,9 +17204,10 @@ einem neuen Namen ab.</description>
 <wire x1="22.8065" y1="88.2115" x2="22.86" y2="88.265" width="0.2032" layer="1"/>
 <wire x1="21.908478125" y1="88.454521875" x2="22.098" y2="88.265" width="0.2032" layer="1"/>
 <wire x1="22.098" y1="88.265" x2="22.86" y2="88.265" width="0.2032" layer="1"/>
-<contactref element="SW3" pad="D"/>
-<wire x1="18.3842" y1="88.8447" x2="21.5183" y2="88.8447" width="0.1778" layer="1"/>
-<wire x1="21.5183" y1="88.8447" x2="21.908478125" y2="88.454521875" width="0.1778" layer="1"/>
+<wire x1="21.908478125" y1="88.454521875" x2="21.5183" y2="88.8447" width="0.1778" layer="1"/>
+<contactref element="SW3" pad="E"/>
+<wire x1="21.5183" y1="88.8447" x2="18.3842" y2="91.9788" width="0.254" layer="1"/>
+<wire x1="18.3842" y1="91.9788" x2="18.3842" y2="93.8447" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R11" pad="2"/>
@@ -18324,13 +18325,9 @@ einem neuen Namen ab.</description>
 <approved hash="3,1,925f1c9f1c2292e2"/>
 <approved hash="19,1,ed6134e264a4adfd"/>
 <approved hash="3,1,f421281e628a3d1b"/>
-<approved hash="3,1,55c74af5499c56ae"/>
-<approved hash="3,1,fd062d72c1139898"/>
 <approved hash="3,1,85e22c042d0684e0"/>
 <approved hash="23,1,67dbdddddd116717"/>
 <approved hash="4,1,d75651eac07b1514"/>
-<approved hash="4,1,52606e960a8ceef4"/>
-<approved hash="4,1,c0c6c2af41d5a073"/>
 <approved hash="4,1,fb0db905a7feb697"/>
 <approved hash="4,1,8335677202818d17"/>
 <approved hash="4,1,83fd780e1d678a8d"/>
@@ -18391,6 +18388,8 @@ einem neuen Namen ab.</description>
 <approved hash="4,1,c062a627d23f7472"/>
 <approved hash="4,1,fee3371818daf118"/>
 <approved hash="4,1,7e19099175fbfd6f"/>
+<approved hash="3,1,d28687e08508d06e"/>
+<approved hash="3,1,af3d47fd4498ac58"/>
 </errors>
 </board>
 </drawing>
